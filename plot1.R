@@ -1,0 +1,5 @@
+house <- read.table("household_power_consumption.txt", header=TRUE, sep=";")
+house$Date<- as.Date(house$Date, format="%d/%m/%Y")
+house<- subset(house, Date == "2007-02-01" | Date == "2007-02-02")
+house$Global_active_power <- as.numeric(as.character(house$Global_active_power))
+hist(house$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", col="red")
