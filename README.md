@@ -1,3 +1,6 @@
+## MY GRAPHS IMAGES ARE IN THE FIGURE FILE AS COMMENTS SINCE I COULDNT UPLOAD IMAGES
+
+
 ## Introduction
 
 This assignment uses data from
